@@ -41,7 +41,7 @@ gsap.to(".demo1", {
   scrollTrigger: {
     trigger: ".demo1",
     start: "top 70%",
-    markers: true,
+    // markers: true,
   },
   opacity:1 ,
   duration: 1.5,
@@ -56,7 +56,7 @@ gsap.to(".footer1", {
   scrollTrigger: {
     trigger: ".footer1",
     start: "top 80%",
-    markers: true,
+    // markers: true,
   },
   opacity:1 ,
   duration: 1.5,
