@@ -37,19 +37,33 @@ gsap.from(".demo", {
   rotateX: 90,
 });
 
-gsap.from(".demo1", {
+gsap.to(".demo1", {
   scrollTrigger: {
     trigger: ".demo1",
-    start: "top 50%",
+    start: "top 70%",
     markers: true,
   },
-  opacity: 0,
+  opacity:1 ,
   duration: 1.5,
-  y: 100,
+  // y: 100,
   stagger: 0.5,
   scale: 1.2,
   ease: "circ",
-  skewX: 20,
-  skewY: 20,
-  rotateX: 90,
+
 });
+
+gsap.to(".footer1", {
+  scrollTrigger: {
+    trigger: ".footer1",
+    start: "top 80%",
+    markers: true,
+  },
+  opacity:1 ,
+  duration: 1.5,
+  // y: 100,
+  stagger: 0.5,
+  scale: 1.2,
+  ease: "circ",
+
+});
+
