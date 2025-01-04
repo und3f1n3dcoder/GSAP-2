@@ -43,13 +43,12 @@ gsap.to(".demo1", {
     start: "top 70%",
     // markers: true,
   },
-  opacity:1 ,
+  opacity: 1,
   duration: 1.5,
   // y: 100,
   stagger: 0.5,
   scale: 1.2,
   ease: "circ",
-
 });
 
 gsap.to(".footer1", {
@@ -58,12 +57,12 @@ gsap.to(".footer1", {
     start: "top 80%",
     // markers: true,
   },
-  opacity:1 ,
+  opacity: 1,
   duration: 1.5,
   // y: 100,
   stagger: 0.5,
   scale: 1.2,
   ease: "circ",
-
 });
 
+console.log('made by adrina\'s "friend" ;)');
