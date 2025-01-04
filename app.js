@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
+window.location.href = "govSite.html";
 // gsap.to(".square", {
 //   x: 500,
 //   duration: 3,
